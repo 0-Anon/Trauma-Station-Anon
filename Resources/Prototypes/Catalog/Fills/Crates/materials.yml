@@ -1,4 +1,4 @@
-- type: entity
+Resources/Prototypes/Catalog/Fills/Crates/materials.yml- type: entity
   parent: CrateGenericSteel
   id: CrateMaterialGlass
   name: glass sheet crate
@@ -52,12 +52,13 @@
   parent: CrateGenericSteel
   id: CrateMaterialWood
   name: wood crate
-  description: Bunch of wood planks.
+  description: 90 wooden planks.
   components:
   - type: EntityTableContainerFill
     containers:
       entity_storage:
         id: MaterialWoodPlank
+        amount: 3
 
 - type: entity
   parent: CrateGenericSteel
