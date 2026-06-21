@@ -172,3 +172,13 @@
   cost: 2500
   category: cargoproduct-category-name-atmospherics
   group: market
+
+- type: cargoProduct #Trauma
+  id: MaterialWood
+  icon:
+    sprite: Objects/Materials/materials.rsi
+    state: wood_3
+  product: CrateMaterialWood
+  cost: 1000
+  category: cargoproduct-category-name-materials
+  group: market
